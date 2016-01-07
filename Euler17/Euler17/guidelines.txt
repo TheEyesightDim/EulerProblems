@@ -1,0 +1,51 @@
+/****cat 1****/
+one 	3
+two		3
+three	5
+four	4
+five	4
+six		3
+seven	5
+eight	5
+nine	4
+ten		3
+
+/****cat 2****/
+eleven	  6	 
+twelve    6
+thirteen  8
+fourteen  8
+fifteen	  7
+sixteen   7
+seventeen 9
+eighteen  8
+nineteen  8
+
+/****cat 3****/
+twenty	6
+thirty	6
+fourty	6
+fifty	5
+sixty	5
+seventy	7
+eighty	6
+ninety	6
+
+/****cat 4****/
+hundred	7
+
+/****cat 5****/
+thousand 8
+
+1: get string size. if string size equals:
+	>1- skip to step 6.
+	>2- skip to step 5.
+	>3- skip to step 3.
+2: find proper cat-1 and add towards counter along with cat-5.
+3: find proper cat-1 and add towards counter along with cat-4.
+4: if non-zero digits remain, add 'and' (3) counter and go to step 5; else, stop here.
+5: if second-to last digit is 
+	(0): skip to step 6.
+	(1): find proper cat-2 and add to counter.
+	(2-9): find proper cat-3 and add to counter then do step 6.
+6: for a non-zero last digit, find the last remaining cat-1.
