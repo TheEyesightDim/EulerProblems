@@ -3,13 +3,14 @@
 using std::cin; using std::cout;
 
 int main() {
+	//64-bit integer type must be used to solve for the very large number given in the problem.
 	__int64 givenNumber, divisor = 2;
 
 	cout << "Enter a number to find its largest prime factor : ";
 	cin >> givenNumber;
 
 	__int64 rememberGN = givenNumber;
-	int iterTracker = 0;	//how long have we been running this thing?
+	int iterTracker = 0;	//how many iterations have we had to go through?
 
 	while (divisor < givenNumber){
 		++iterTracker;
