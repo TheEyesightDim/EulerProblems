@@ -32,7 +32,6 @@ int main() {
 		cout << std::endl << rememberGN << " is prime!\n" << iterTracker << " checks were done.";
 	else
 		cout << iterTracker << " checks have been done.";
-
 	cin.get();
 	cin.ignore();
 

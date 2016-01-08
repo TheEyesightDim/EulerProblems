@@ -1,28 +1,10 @@
 #include <iostream>
 #include <string>
+#include "palindrome.hpp"
 
 using namespace std;
 
-//does the actual checking for palindromes
-bool isPalindrome(string mbPalindrome){
-
-	bool someBool;
-	int stringsize = mbPalindrome.size();
-
-	for (signed int offset = 0; offset < (stringsize / 2); ++offset){
-		if ((mbPalindrome.at(offset)) == (mbPalindrome.at(stringsize - offset - 1)))
-			someBool = true;
-		else {
-			someBool = false;
-			break;
-		}
-	}
-
-	return someBool;
-} 
-
 int main(){
-	
 	
 	string sProduct;
 	/************************[DEBUG]****************************
@@ -61,5 +43,4 @@ int main(){
 	cin.ignore();
 
 	return 0;
-
 }

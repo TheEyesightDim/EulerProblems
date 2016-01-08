@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+using std::cout; using std::cin;
 
 int main(){
 	int fib1 = 3, fib2 = 5, fibSum = 2;
@@ -15,7 +15,6 @@ int main(){
 
 	cout << fibSum;
 
-	cin.get();
 	cin.ignore();
 
 	return 0;
