@@ -1,6 +1,9 @@
 #ifndef PRIMELISTER_HPP
 #define PRIMELISTER_HPP
 
-void primeList(std::vector<int>&);
+#include <algorithm>
+#include <vector>
+
+void primeList(std::vector<unsigned int>&);
 
 #endif

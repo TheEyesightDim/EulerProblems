@@ -1,5 +1,3 @@
-#include <algorithm>
-#include <vector>
 #include "primelister.hpp"
 
 /* "void primelist (vector<int>&)"
@@ -9,7 +7,7 @@ The zeroes can then be removed or ignored. In this implementation, they will be 
 
 #define C(l, i, p) (l + (i * p))	//N.B.: refers to (loc + (i * pVal))
 
-void primeList(std::vector<int> &rvPrimes){
+void primeList(std::vector<unsigned int> &rvPrimes){
 	unsigned int loc = 0, sz = rvPrimes.size();	// 'loc' is current place in vector
 	int pVal;
 
